@@ -1,6 +1,6 @@
 ---
 declared-services:
-  my-conversation-service:
+  Conversation-impacta:
     label: conversation
     plan: free
 applications:
@@ -10,6 +10,7 @@ applications:
   memory: 256M
   instances: 1
   services:
-  - my-conversation-service
+  - Conversation-impacta
   env:
     NPM_CONFIG_PRODUCTION: false
+    WORKSPACE_ID: e37c3e2f-f4c6-487d-ae1e-9523b6b562d2
